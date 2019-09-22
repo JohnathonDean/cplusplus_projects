@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/johnathon/Documents/cplusplus_projects/data_test/test/pointer_address_test.cpp
+iostream
+-
+iomanip
+-
+string
+-
+

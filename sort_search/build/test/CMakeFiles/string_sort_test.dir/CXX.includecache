@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/johnathon/Documents/cplusplus_projects/sort_search/test/string_sort_test.cpp
+iostream
+-
+string
+-
+cstring
+-
+

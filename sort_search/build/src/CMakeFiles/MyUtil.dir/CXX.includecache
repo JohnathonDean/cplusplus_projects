@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/sort_search/MyUtil.h
+iostream
+-
+algorithm
+-
+cassert
+-
+
+/home/johnathon/Documents/cplusplus_projects/sort_search/src/MyUtil.cpp
+sort_search/MyUtil.h
+/home/johnathon/Documents/cplusplus_projects/sort_search/src/sort_search/MyUtil.h
+

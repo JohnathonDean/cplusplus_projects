@@ -1,0 +1,1 @@
+g++   -std=c++11 -march=native -O3 -O3 -DNDEBUG   CMakeFiles/char_string_test.dir/char_string_test.cpp.o  -o ../../bin/char_string_test -rdynamic 

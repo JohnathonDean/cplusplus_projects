@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/sort_search/MyUtil.h
+iostream
+-
+algorithm
+-
+cassert
+-
+
+../include/sort_search/Student.h
+iostream
+-
+string
+-
+algorithm
+-
+cassert
+-
+
+/home/johnathon/Documents/cplusplus_projects/sort_search/test/sort_int_array.cpp
+iostream
+-
+cmath
+-
+string
+-
+climits
+-
+cassert
+-
+ctime
+-
+sort_search/MyUtil.h
+/home/johnathon/Documents/cplusplus_projects/sort_search/test/sort_search/MyUtil.h
+sort_search/Student.h
+/home/johnathon/Documents/cplusplus_projects/sort_search/test/sort_search/Student.h
+
