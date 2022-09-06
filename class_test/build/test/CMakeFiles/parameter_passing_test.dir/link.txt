@@ -1,1 +1,1 @@
-g++   -std=c++11 -march=native -O3 -O3 -DNDEBUG   CMakeFiles/parameter_passing_test.dir/parameter_passing_test.cpp.o  -o ../../bin/parameter_passing_test -rdynamic 
+g++ -std=c++11 -march=native -O3 -O3 -DNDEBUG -rdynamic CMakeFiles/parameter_passing_test.dir/parameter_passing_test.cpp.o -o ../../bin/parameter_passing_test 

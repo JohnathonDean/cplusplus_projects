@@ -1,1 +1,0 @@
-g++  -fPIC -std=c++11 -march=native -O3 -O3 -DNDEBUG  -shared -Wl,-soname,libMyUtil.so -o ../../lib/libMyUtil.so CMakeFiles/MyUtil.dir/MyUtil.cpp.o 

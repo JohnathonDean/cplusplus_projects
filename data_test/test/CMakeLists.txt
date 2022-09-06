@@ -10,6 +10,10 @@ add_executable( pointer_address_test pointer_address_test.cpp )
 
 add_executable( pointer_string_test pointer_string_test.cpp )
 
+add_executable( const_test const_test.cpp )
+
+add_executable( bool_type_test bool_type_test.cpp )
+
 # target_link_libraries( myslam
 #     ${THIRD_PARTY_LIBS}
 # )
