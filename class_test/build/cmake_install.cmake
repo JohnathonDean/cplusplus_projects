@@ -1,4 +1,4 @@
-# Install script for directory: /home/johnathon/Documents/cplusplus_projects/class_test
+# Install script for directory: /home/johnathon/repositories/cplusplus_projects/class_test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,10 +32,20 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/johnathon/Documents/cplusplus_projects/class_test/build/src/cmake_install.cmake")
-  include("/home/johnathon/Documents/cplusplus_projects/class_test/build/test/cmake_install.cmake")
+  include("/home/johnathon/repositories/cplusplus_projects/class_test/build/src/cmake_install.cmake")
+  include("/home/johnathon/repositories/cplusplus_projects/class_test/build/test/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/johnathon/Documents/cplusplus_projects/class_test/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/johnathon/repositories/cplusplus_projects/class_test/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

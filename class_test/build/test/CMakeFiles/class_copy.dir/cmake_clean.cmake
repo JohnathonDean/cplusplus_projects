@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/class_copy.dir/class_copy.cpp.o"
-  "../../bin/class_copy.pdb"
   "../../bin/class_copy"
+  "../../bin/class_copy.pdb"
+  "CMakeFiles/class_copy.dir/class_copy.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

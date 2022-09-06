@@ -1,1 +1,1 @@
-g++   -std=c++11 -march=native -O3 -O3 -DNDEBUG   CMakeFiles/pointer_address_test.dir/pointer_address_test.cpp.o  -o ../../bin/pointer_address_test -rdynamic 
+g++  -std=c++11 -march=native -O3 -O3 -DNDEBUG  -rdynamic CMakeFiles/pointer_address_test.dir/pointer_address_test.cpp.o  -o ../../bin/pointer_address_test 

@@ -1,1 +1,0 @@
-g++   -std=c++11 -march=native -O3 -O3 -DNDEBUG   CMakeFiles/sort_int_array.dir/sort_int_array.cpp.o  -o ../../bin/sort_int_array -rdynamic ../../lib/libMyUtil.so -Wl,-rpath,/home/johnathon/Documents/cplusplus_projects/sort_search/lib 

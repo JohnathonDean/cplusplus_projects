@@ -4,14 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/johnathon/Documents/cplusplus_projects/data_test/test/char_string_test.cpp" "/home/johnathon/Documents/cplusplus_projects/data_test/build/test/CMakeFiles/char_string_test.dir/char_string_test.cpp.o"
+  "/home/johnathon/repositories/cplusplus_projects/data_test/test/char_string_test.cpp" "/home/johnathon/repositories/cplusplus_projects/data_test/build/test/CMakeFiles/char_string_test.dir/char_string_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/opt/ros/kinetic/include/opencv-3.3.1-dev"
-  "/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"
+  "/usr/include/opencv"
   "../include"
   )
 
