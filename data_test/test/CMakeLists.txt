@@ -6,6 +6,9 @@ add_executable( char_string_test char_string_test.cpp )
 
 add_executable( string_test string_test.cpp )
 
+add_executable( vector_test vector_test.cpp )
+
+
 add_executable( pointer_address_test pointer_address_test.cpp )
 
 add_executable( pointer_string_test pointer_string_test.cpp )

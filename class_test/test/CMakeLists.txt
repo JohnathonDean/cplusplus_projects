@@ -6,6 +6,7 @@ add_executable( class_destroy class_destroy.cpp )
 
 add_executable( singleton_test Singleton_test.cpp )
 
+add_executable( smart_ptr smart_ptr.cpp )
 
 
 # target_link_libraries( myslam

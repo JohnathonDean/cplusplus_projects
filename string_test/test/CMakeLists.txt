@@ -5,6 +5,9 @@ add_executable( string_test string_test.cpp )
 
 add_executable( expression_test expression_test.cpp )
 
+add_executable( file_test file_test.cpp )
+
+
 # target_link_libraries( myslam
 #     ${THIRD_PARTY_LIBS}
 # )

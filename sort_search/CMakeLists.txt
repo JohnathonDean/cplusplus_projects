@@ -8,6 +8,8 @@ set( CMAKE_CXX_FLAGS "-std=c++11 -march=native -O3" )
 set( EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin )
 set( LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib )
 
+find_package(Boost REQUIRED COMPONENTS system)
+
 
 include_directories( ${PROJECT_SOURCE_DIR}/include )
 add_subdirectory( src )

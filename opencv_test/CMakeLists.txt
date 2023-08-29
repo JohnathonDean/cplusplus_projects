@@ -1,7 +1,5 @@
 cmake_minimum_required( VERSION 2.8 )
-project ( class_test )
-
-add_compile_options(-std=c++11)
+project ( opencv_test )
 
 set( CMAKE_CXX_COMPILER "g++" )
 set( CMAKE_BUILD_TYPE "Release" )
@@ -11,21 +9,22 @@ set( EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin )
 set( LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib )
 
 ############### dependencies ######################
-
-find_package(Boost REQUIRED COMPONENTS system)
-
-find_package(PCL REQUIRED)
-include_directories(${PCL_INCLUDE_DIRS})
-
-
 # Eigen
 find_package( Eigen3 REQUIRED )
-include_directories( ${Eigen3_INCLUDE_DIRS} )
+include_directories( ${EIGEN3_INCLUDE_DIRS} )
 # OpenCV
 find_package( OpenCV 3.1 REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 
-set( THIRD_PARTY_LIBS 
+
+find_package(PythonLibs 2.7)
+include_directories(${PYTHON_INCLUDE_DIRS})
+
+# message("----------------------++++++++++--------------------------")
+# message(${EIGEN3_INCLUDE_DIRS})
+# message("----------------------++++++++++--------------------------")
+
+set( THIRD_PARTY_LIBS
     ${OpenCV_LIBS}
 )
 ############### dependencies ######################
