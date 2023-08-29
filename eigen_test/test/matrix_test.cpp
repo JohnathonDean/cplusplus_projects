@@ -83,7 +83,7 @@ int main(int argc, char **argv)
     std::cout << "error_norm:" << error_offset2.translation().norm() << std::endl;
     std::cout << "error_norm:" << error_offset3.translation().norm() << std::endl;
 
-    Eigen::VectorXd t6(5);
+    // Eigen::VectorXd t6(5);
 
 
     return 0;
