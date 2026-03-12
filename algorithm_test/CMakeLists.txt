@@ -1,18 +1,18 @@
-cmake_minimum_required( VERSION 2.8 )
-project ( algorithm_test )
+cmake_minimum_required(VERSION 3.16)
 
-set( CMAKE_CXX_COMPILER "g++" )
-set( CMAKE_BUILD_TYPE "Release" )
-set( CMAKE_CXX_FLAGS "-std=c++11 -march=native -O3" )
+project(algorithm_test LANGUAGES CXX)
 
-set( EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin )
-set( LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib )
+if(NOT CMAKE_BUILD_TYPE)
+    set(CMAKE_BUILD_TYPE Release CACHE STRING "Build type" FORCE)
+endif()
 
-############### dependencies ######################
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
 
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/lib)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/lib)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
 
-############### dependencies ######################
-
-include_directories( ${PROJECT_SOURCE_DIR}/include )
-add_subdirectory( src )
-add_subdirectory( test )
+add_subdirectory(src)
+add_subdirectory(test)
